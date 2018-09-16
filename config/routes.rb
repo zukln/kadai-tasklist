@@ -2,7 +2,7 @@ Rails.application.routes.draw do
 
   root to: 'toppages#index'
   
-  get   '/edit/:id', to: 'tasks#edit'
+  
   
   get 'login', to: 'sessions#new'
   post 'login', to: 'sessions#create'
